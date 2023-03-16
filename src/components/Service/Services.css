@@ -1,0 +1,38 @@
+.service-card {
+	height: fit-content;
+	width: 100%;
+}
+.service-card{
+    box-shadow: 6px 10px 68px -33px rgba(0,0,0,0.15);
+	
+}
+
+.bg-size {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80%;
+	display: flex;
+	align-items: end;
+}
+.rounded-1 {
+	border-radius: 10px !important;
+}
+.service-card-text {
+	height: 20%;
+	background-color: white;
+}
+.service-description {
+	height: fit-content;
+	background-color: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	color: white;
+	text-align: justify;
+}
+
+/* @media only screen and (max-width: 992px) {
+	.service-card{
+        height: 110vh;
+		background-color: red !important;
+    }
+} */

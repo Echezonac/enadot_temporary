@@ -1,0 +1,42 @@
+.hero-page{
+    height: fit-content;
+    min-height: fit-content;
+    margin-top: 5em;
+}
+.text-2{
+    text-align: center;
+}
+
+.text-3{
+    text-align: end;
+}
+.hero-top-content{
+    width: 80%;
+    margin: 10px auto 0px;
+    /* padding: 1%; */
+    height: fit-content;
+    min-height: fit-content;
+}
+.hero-img-content{
+    height:20vh ;
+    background-image: url('../../assets/images/hero-bg01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(40%);
+}
+.hero-bottom-content{
+    height: fit-content;
+    min-height: fit-content;
+}
+
+
+.hero-bottom-content-text-box{
+    width: fit-content;
+    margin: 0px auto;
+}
+.about-description{
+    text-align: justify;
+}
+

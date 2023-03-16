@@ -1,0 +1,41 @@
+<div className="col-12 px-5 mt-5 d-flex herot align-items-start justify-content-evenly mb-5 flex-md-wrap flex-xl-nowrap flex-lg-nowrap">
+					<h2 className="htitle px-5 mt-2">
+						Fullstack
+						<br /> &nbsp;&nbsp;Developer
+					</h2>
+					<p className="ptitle" style={{ width: "300px" }}></p>
+					<img
+						src={heroImg}
+						alt="enadot-hero"
+						className="img-fluid marimg"
+						width={500}
+					/>
+				</div>
+				<div
+					className="col-12 d-flex align-items-end justify-content-evenly mt-5 flex-xl-nowrap flex-lg-nowrap flex-md-reserve"
+					id="march"
+				>
+					<img
+						src={arrowdown}
+						alt="arrow_down"
+						className="img-fluid animate__animated animate__bounce animate__infinite"
+						id="arrowdown"
+					/>
+					<p className="ptitle" style={{ width: "300px" }} id="arrowTxt">
+						I provide solutions that are unique, futuristic and sustainable to
+						Organisations and individuals
+					</p>
+					<h2 className="htitle" id="archTxt">
+						Design
+						<br />
+						&nbsp;&nbsp;Engineer <span className="ptitle">(Architect)</span>
+					</h2>
+				</div>
+				<div className="optional-arrow col-12">
+					<img
+						src={arrowdown}
+						alt="arrow_down"
+						className="img-fluid d-block mx-auto mt-5 animate__animated animate__bounce animate__infinite"
+						id="optionArrow"
+					/>
+				</div>

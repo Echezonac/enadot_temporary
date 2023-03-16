@@ -1,0 +1,14 @@
+.service-decription {
+	height: fit-content;
+	background-color: rgba(0, 0, 0, 0.9) !important;
+	width: 100%;
+	color: white;
+	text-align: justify;
+}
+.service-decription p{
+    font-size: small !important;
+}
+.service-list{
+	font-size: small;
+	font-weight: 500;
+}

@@ -1,0 +1,7 @@
+.navbar-toggler:hover{
+    box-shadow: none !important;
+}
+.navbar-toggler{
+    box-shadow: none !important;
+    border: none !important;
+}

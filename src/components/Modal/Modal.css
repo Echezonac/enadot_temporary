@@ -1,0 +1,7 @@
+.btn-close:hover{
+    box-shadow: none !important;
+}
+.btn-close{
+    box-shadow: none !important;
+    border: none !important;
+}

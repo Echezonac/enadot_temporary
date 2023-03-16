@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Space+Grotesk:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metrophobic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300&display=swap');
+::root {
+	--hFont: "Metrophobic", sans-serif;
+	--pFont: "Montserrat", sans-serif;
+	--vFont: "Space Grotesk", sans-serif;
+	--altFont:'Hanken Grotesk', sans-serif;
+	--drkColor: #060047;
+	--blkColor: #191825;
+	--ltColor: #ffffff;
+}
+@font-face {
+	font-family: dreamAvenue;
+	src: url('./assets/fonts/dream-avenue.otf');
+}
+::-webkit-scrollbar {
+	width: 2px;
+}
+::-webkit-scrollbar-thumb {
+	background: #060047;
+}
+.btn-outline-dark:hover{
+	background-color: #850000 !important;
+	border: none !important;
+}
+.btn-outline-dark{
+	border:1px solid #850000 !important;
+	color: #850000;
+}
+.btn-dark{
+	background-color: #850000 !important;
+	border: none !important;
+	font-family: "Space Grotesk", sans-serif;
+	text-align: center !important;
+	font-size: x-small !important;
+}
+.text-maroon {
+	color: #850000;
+}
+.bg-maroon {
+	background-color: #850000 !important;
+}
+.mt-6{
+	margin-top: 10vh;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	user-select: none;
+	user-zoom: none;
+}
+
+html {
+	background-color: var(--ltColor);
+}
+.text-btn{
+	cursor: pointer;
+}
+.text-btn:hover{
+	color: gray !important;
+}
+
+p,.p{
+	font-family: var(--pFont);
+	font-size: medium;
+}
+
+
+
+.h-font{
+	font-family: dreamAvenue;
+	font-size: 4vw;
+}
+.n-font{
+	font-family: var(--pFont);
+}
+.n-font:hover{
+	color: #850000;
+	cursor: pointer;
+}
+.p-font{
+	font-size: 2.8vw;
+}
+
+.htitle{
+	font-family: dreamAvenue;
+	font-weight: 800;
+	font-size: 3vw;
+	letter-spacing: 0.5vw;
+}
+.htitle-2{
+	font-family: var(--altFont);
+	font-weight:400;
+	font-size: 1.5vw;
+}
+.htitle-2 small{
+	font-family: var(--altFont);
+	font-weight:400;
+	font-size: 1vw;
+	color: grey;
+}
+
+
+
